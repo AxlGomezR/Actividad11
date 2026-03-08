@@ -8,6 +8,12 @@ namespace Func5
 {
     internal class Program
     {
+        static void mostrarMenu()
+        {
+            Console.WriteLine("Seleccione una opción");
+            Console.WriteLine("1) Iniciar sesión");
+            Console.WriteLine("2) Salir");
+        }
         static void Main(string[] args)
         {
         }
