@@ -8,6 +8,10 @@ namespace Func3
 {
     internal class Program
     {
+        static void mostrarMensaje()
+        {
+            Console.WriteLine("Programación en c#");
+        }
         static void Main(string[] args)
         {
         }
