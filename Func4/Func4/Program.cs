@@ -8,6 +8,10 @@ namespace Func4
 {
     internal class Program
     {
+        static void linea()
+        {
+            Console.WriteLine("----------------");
+        }
         static void Main(string[] args)
         {
         }
