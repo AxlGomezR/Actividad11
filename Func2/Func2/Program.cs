@@ -8,6 +8,10 @@ namespace Func2
 {
     internal class Program
     {
+        static void mostrarNombre()
+        {
+            Console.WriteLine("El nombre es: Javier");
+        }
         static void Main(string[] args)
         {
         }
