@@ -14,6 +14,7 @@ namespace Func1
         }
         static void Main(string[] args)
         {
+            saludar();
         }
     }
 }
