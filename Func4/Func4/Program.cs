@@ -14,6 +14,7 @@ namespace Func4
         }
         static void Main(string[] args)
         {
+            linea();
         }
     }
 }
