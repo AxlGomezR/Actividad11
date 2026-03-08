@@ -14,6 +14,7 @@ namespace Func2
         }
         static void Main(string[] args)
         {
+            mostrarNombre();
         }
     }
 }
