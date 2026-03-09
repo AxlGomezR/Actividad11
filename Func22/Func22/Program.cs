@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,10 @@ namespace Func22
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese un texto");
+            string texto = Console.ReadLine();
+            bool continuar = false;
+            
         }
     }
 }
