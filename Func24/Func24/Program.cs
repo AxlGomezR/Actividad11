@@ -25,6 +25,21 @@ namespace Func24
         }
         static void Main(string[] args)
         {
+            bool continuar = false;
+            do
+            {
+                Console.WriteLine("Ingrese un número");
+                int n = int.Parse(Console.ReadLine());
+                Console.Clear();
+                if (n >= 0)
+                {
+                    continuar = true;
+                }
+                else
+                {
+                    Console.WriteLine("Debe ingresar un número mayor o igual a 0");
+                }
+            } while (continuar==false);
         }
     }
 }
