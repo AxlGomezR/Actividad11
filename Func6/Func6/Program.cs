@@ -14,6 +14,10 @@ namespace Func6
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese su nombre");
+            string nombre = Console.ReadLine();
+            Console.Clear();
+            saludar(nombre);
         }
     }
 }
