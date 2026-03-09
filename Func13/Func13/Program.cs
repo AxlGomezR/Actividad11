@@ -8,6 +8,10 @@ namespace Func13
 {
     internal class Program
     {
+        static int Multiplicar(int a, int b)
+        {
+            return a * b;
+        }
         static void Main(string[] args)
         {
         }
