@@ -10,18 +10,12 @@ namespace Func24
     {
         static int Factorial(int n)
         {
-            if (n == 0)
+            int fact = 1;
+            for (int i = 1; i <= n; i++)
             {
-                return 0;
-            }else
-            {
-                int fact = 1;
-                for (int i = 1; i <= n; i++)
-                {
-                    fact *= i;
-                }
-                return fact;
+                fact *= i;
             }
+            return fact;
         }
         static void Main(string[] args)
         {
