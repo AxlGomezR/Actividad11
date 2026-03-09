@@ -8,6 +8,12 @@ namespace Func21
 {
     internal class Program
     {
+        static int ContarVocales(string texto)
+        {
+            int vocales=0;
+            texto = texto.ToLower();
+            
+        }
         static void Main(string[] args)
         {
         }
