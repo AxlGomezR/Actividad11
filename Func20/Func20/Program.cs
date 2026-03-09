@@ -14,7 +14,10 @@ namespace Func20
         }
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Ingrese un texto");
+            string texto = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine($"La cantidad de letras del texto ingresado es = {ContarLetras(texto)}");
         }
     }
 }
