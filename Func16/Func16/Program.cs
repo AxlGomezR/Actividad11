@@ -24,7 +24,14 @@ namespace Func16
             Console.WriteLine("Ingrese un número");
             int n = int.Parse(Console.ReadLine());
             Console.Clear();
-            
+            if (EsPositivo(n))
+            {
+                Console.WriteLine("El número ingresado es positivo");
+            }
+            else
+            {
+                Console.WriteLine("El número ingresado no es positivo");
+            }
         }
     }
 }
