@@ -8,8 +8,23 @@ namespace Func16
 {
     internal class Program
     {
+        static bool EsPositivo(int n)
+        {
+            if (n > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese un número");
+            int n = int.Parse(Console.ReadLine());
+            Console.Clear();
+            
         }
     }
 }
