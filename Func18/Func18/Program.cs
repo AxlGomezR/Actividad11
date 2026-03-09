@@ -23,6 +23,14 @@ namespace Func18
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese el primer número");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el segundo número");
+            int b= int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el tercer número");
+            int c = int.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine($"El número mayor de los tres es = {MayorDeTres(a,b,c)}");
         }
     }
 }
