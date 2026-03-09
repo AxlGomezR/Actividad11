@@ -24,9 +24,10 @@ namespace Func25
         static void Main(string[] args)
         {
             bool continuar = false;
+            int n;
             do {
                 Console.WriteLine("Ingrese un número");
-                int n = int.Parse(Console.ReadLine());
+                n = int.Parse(Console.ReadLine());
                 Console.Clear();
                 if (n >= 2)
                 {
@@ -37,6 +38,14 @@ namespace Func25
                     Console.WriteLine("Debe ingresar un número mayor a 1");
                 }
             } while (continuar==false);
+            if (EsPrimo(n))
+            {
+                Console.WriteLine($"El número {n} es primo");
+            }
+            else
+            {
+                Console.WriteLine($"El número {n} no es primo");
+            }
         }
     }
 }
