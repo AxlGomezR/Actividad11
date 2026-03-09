@@ -10,7 +10,7 @@ namespace Func15
     {
         static bool EsPar(int n)
         {
-            if (n/2==0)
+            if (n%2==0)
             {
                 return true;
             }
@@ -21,6 +21,17 @@ namespace Func15
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese un número");
+            int n = int.Parse(Console.ReadLine());
+            Console.Clear();
+            if (EsPar(n))
+            {
+                Console.WriteLine("El número ingresado es par");
+            }
+            else
+            {
+                Console.WriteLine("El número ingresado no es par");
+            }
         }
     }
 }
