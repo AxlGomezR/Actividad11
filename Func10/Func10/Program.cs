@@ -32,6 +32,7 @@ namespace Func10
                 else
                 {
                     continuar = true;
+                    imprimirRepetido (texto, repes);
                 }
             } while (continuar==false);
         }
