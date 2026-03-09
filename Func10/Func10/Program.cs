@@ -17,7 +17,16 @@ namespace Func10
         }
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Ingrese el texto que desea imprimir");
+            string texto = Console.ReadLine();
+            bool continuar = false;
+            do
+            {
+                Console.WriteLine("Ingrese la cantidad de veces que desea imprimir el texto");
+                int repes = int.Parse(Console.ReadLine());
+                Console.Clear();
+                
+            } while (continuar==false);
         }
     }
 }
