@@ -25,7 +25,14 @@ namespace Func10
                 Console.WriteLine("Ingrese la cantidad de veces que desea imprimir el texto");
                 int repes = int.Parse(Console.ReadLine());
                 Console.Clear();
-                
+                if (repes <= 0)
+                {
+                    Console.WriteLine("Debe repetirse al menos una vez\n");
+                }
+                else
+                {
+                    continuar = true;
+                }
             } while (continuar==false);
         }
     }
