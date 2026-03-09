@@ -23,6 +23,10 @@ namespace Func21
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese un texto");
+            string texto = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine($"La cantidad de vocales en el texto ingresado es de = {ContarVocales(texto)}");
         }
     }
 }
