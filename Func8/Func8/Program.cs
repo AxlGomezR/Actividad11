@@ -14,6 +14,10 @@ namespace Func8
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese un número");
+            int numero = int.Parse(Console.ReadLine());
+            Console.Clear();
+            mostrarCuadrado(numero);
         }
     }
 }
