@@ -8,8 +8,13 @@ namespace Func11
 {
     internal class Program
     {
+        int sumar(int a, int b)
+        {
+            return a + b;
+        }
         static void Main(string[] args)
         {
+
         }
     }
 }
