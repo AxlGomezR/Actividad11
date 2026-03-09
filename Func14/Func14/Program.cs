@@ -14,6 +14,12 @@ namespace Func14
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese el primer número");
+            double a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el segundo número");
+            double b = int.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine($"La división de los números ingresados es = {Dividir(a,b)}");
         }
     }
 }
