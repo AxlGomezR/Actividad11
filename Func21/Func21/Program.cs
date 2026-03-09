@@ -12,7 +12,14 @@ namespace Func21
         {
             int vocales=0;
             texto = texto.ToLower();
-            
+            for (int i = 0; i < texto.Length; i++)
+            {
+                if (texto[i] == 'a' || texto[i] == 'e' || texto[i] == 'i' || texto[i] == 'o' || texto[i] == 'u')
+                {
+                    vocales++;
+                }
+            }
+            return vocales;
         }
         static void Main(string[] args)
         {
