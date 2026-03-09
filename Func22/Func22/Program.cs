@@ -21,10 +21,11 @@ namespace Func22
             Console.WriteLine("Ingrese un texto");
             string texto = Console.ReadLine();
             bool continuar = false;
+            int repes;
             do
             {
                 Console.WriteLine("Ingrese la cantidad de veces que desea imprimir el texto");
-                int repes = int.Parse(Console.ReadLine());
+                repes = int.Parse(Console.ReadLine());
                 Console.Clear();
                 if (repes <= 0)
                 {
@@ -35,6 +36,7 @@ namespace Func22
                     continuar = true;
                 }
             } while (continuar == false);
+            Repetir(texto, repes);
         }
     }
 }
