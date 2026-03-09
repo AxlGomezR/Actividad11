@@ -21,7 +21,20 @@ namespace Func22
             Console.WriteLine("Ingrese un texto");
             string texto = Console.ReadLine();
             bool continuar = false;
-            
+            do
+            {
+                Console.WriteLine("Ingrese la cantidad de veces que desea imprimir el texto");
+                int repes = int.Parse(Console.ReadLine());
+                Console.Clear();
+                if (repes <= 0)
+                {
+                    Console.WriteLine("El texto debe imprimirse al menos una vez\n");
+                }
+                else
+                {
+                    continuar = true;
+                }
+            } while (continuar == false);
         }
     }
 }
