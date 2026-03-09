@@ -8,6 +8,10 @@ namespace Func6
 {
     internal class Program
     {
+        static void saludar(string nombre)
+        {
+            Console.WriteLine($"Hola {nombre}");
+        }
         static void Main(string[] args)
         {
         }
