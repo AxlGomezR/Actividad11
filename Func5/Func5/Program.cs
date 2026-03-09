@@ -13,9 +13,20 @@ namespace Func5
             Console.WriteLine("Seleccione una opción");
             Console.WriteLine("1) Iniciar sesión");
             Console.WriteLine("2) Salir");
+            int opcion = int.Parse(Console.ReadLine());
+            Console.Clear();
+            if (opcion == 1)
+            {
+                Console.WriteLine("Sesión iniciada");
+            }
+            else
+            {
+                Console.WriteLine("Saliendo");
+            }
         }
         static void Main(string[] args)
         {
+            mostrarMenu();
         }
     }
 }
